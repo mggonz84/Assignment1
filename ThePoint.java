@@ -1,36 +1,36 @@
 
 public class ThePoint {
 	
-	int x;
-	int y;
+	double x;
+	double y;
 	
 	public ThePoint(){
 		x = 0;
 		y = 0;
 	}
-	public ThePoint(int x, int y){
+	public ThePoint(double x, double y){
 		this.x = x;
 		this.y = y;
 	}
-	public int getX() {
+	public double getX() {
 		return x;
 	}
-	public void setX(int x) {
+	public void setX(double x) {
 		this.x = x;
 	}
-	public int getY() {
+	public double getY() {
 		return y;
 	}
-	public void setY(int y) {
+	public void setY(double y) {
 		this.y = y;
 	}
 	public String toString(){
 		return "(" + x + "," + y + ")";
 	}
-	public int distance(int x1, int y1, int x2, int y2){
-		int x = x2-x1;
-		int y = y2-y1;
-		int d = (int)(Math.sqrt((Math.pow(x, 2))+(Math.pow(y, 2))));
+	public double distance(double x1, double y1, double x2, double y2){
+		double x = x2-x1;
+		double y = y2-y1;
+		double d = Math.sqrt((Math.pow(x, 2))+(Math.pow(y, 2)));
 		return d;
 	}
 }
