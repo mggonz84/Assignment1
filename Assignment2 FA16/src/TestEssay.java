@@ -4,7 +4,7 @@ public class TestEssay {
 
 	public static void main(String[] args) {
 		
-		Essay e = new Essay();
+		Essay e = new Essay(); //This is a redundant statement as you instantiate essay object later on.
 		Scanner user = new Scanner(System.in);
 		
 		System.out.println("Please enter the test scores for the essay:");
