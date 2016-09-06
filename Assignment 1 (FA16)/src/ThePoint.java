@@ -33,4 +33,12 @@ public class ThePoint {
 		double d = Math.sqrt((Math.pow(x, 2))+(Math.pow(y, 2)));
 		return d;
 	}
+	/* It would be better to write the distance using public double distance(p2) {  
+	
+	you can use p1.distance(p2); This may be the most object-oriented way to write this program as no static methods are used.
+	
+	If you do it the way you did it above, you should make it static:
+	
+	public static double distance(int x1, int y1, int x2, int y2) {
+	*/
 }
