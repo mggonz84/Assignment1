@@ -12,6 +12,7 @@ public class TestShip {
 		for(int i = 0; i < s.length; i++)
 		{
 			System.out.println(s[i].toString());
+			System.out.println("-------------------------");
 		}
 		
 	}

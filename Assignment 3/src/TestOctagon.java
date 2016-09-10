@@ -7,7 +7,7 @@ public class TestOctagon {
 		Octagon o = new Octagon();
 		Scanner user = new Scanner(System.in);
 		
-		System.out.println("Side length = ");
+		System.out.print("Side length = ");
 		int l = user.nextInt();
 		
 		o = new Octagon(l);
