@@ -1,3 +1,5 @@
+//OK
+
 import java.util.Scanner;
 
 public class TestAnimal {
