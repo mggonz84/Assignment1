@@ -11,6 +11,8 @@ public class Division {
 		int a;
 		int b;
 		
+		//You can try to use a loop here so user can enter the numbers again if an exception is thrown and caught. OA
+		
 		System.out.println("Enter the 1st Integer: ");
 		a = user.nextInt();
 		System.out.println("Enter the 2nd Integer: ");
