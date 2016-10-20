@@ -33,6 +33,8 @@ public class FileSum  {
 			sum += Integer.parseInt(reader.next());
 		}
 		
+		sum++;
+		
 		System.out.println("sum is " + sum);
 		
 		reader.close();
