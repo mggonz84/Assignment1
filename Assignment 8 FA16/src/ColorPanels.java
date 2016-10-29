@@ -10,7 +10,7 @@ public class ColorPanels extends JFrame{
 		setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
 		
 		JLabel label = new JLabel("RED");
-		label.setBounds(120,10,200,80);
+		label.setBounds(120,10,200,80);//location(x,y) and size (height and length)
 		label.setForeground(Color.RED);
 		add(label);
 		JPanel panel = new JPanel();
@@ -24,7 +24,7 @@ public class ColorPanels extends JFrame{
 		add(b);
 		
 		JLabel label2 = new JLabel("BLUE");
-		label2.setBounds(345,10,200,80);
+		label2.setBounds(345,10,200,80);//location(x,y) and size (height and length)
 		label2.setForeground(Color.BLUE);
 		add(label2);
 		JPanel panel2 = new JPanel();

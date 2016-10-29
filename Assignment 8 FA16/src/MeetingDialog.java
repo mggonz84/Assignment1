@@ -40,7 +40,7 @@ public class MeetingDialog extends JFrame{
 		
 		//Uses a confirm dialog to confirm "is <name> your name?" with yes/no buttons
 		JFrame c = new JFrame("Confirm Dialog");
-		String rname = JOptionPane.showConfirmDialog(null, "is " + name + " your name?");
+		String rname = JOptionPane.showInputDialog("is " + name + " your name?",JOptionPane.QUESTION_MESSAGE,JOptionPane.YES_NO_OPTION);
 		JButton ybutton = new JButton("Yes");
 		JButton nbutton = new JButton("No");
 
@@ -50,7 +50,8 @@ public class MeetingDialog extends JFrame{
 		
 		
 		//uses a message dialog to respond "nice to meet you <name>"
-		
+		JFrame m = new JFrame();
+		JOptionPane.showMessageDialog(m, "Nice to meet you " + name);
 		
 		user.close();
 
