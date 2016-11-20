@@ -42,7 +42,6 @@ public class CtoFConverter extends JFrame{
 		convert.addActionListener(new RadioButtonListener());
 		add(convert);
 		
-		
 		setVisible(true);
 		
 	}
@@ -57,13 +56,13 @@ public class CtoFConverter extends JFrame{
 	         // Get input from the text field.
 	         input = ctemp.getText();
 	         
-	       //performs the conversion when button is pressed
+	         //performs the conversion when button is pressed
 	         
-	        	//convert c to f
-	     		//F = (9/5) C + 32
-	            result = Double.parseDouble(input) * 9 / 5 + 32;
+	         //convert c to f
+	         //F = (9/5) C + 32
+	         result = Double.parseDouble(input) * 9 / 5 + 32;
 
-	         // Display the converted distance.
+	         // Display the converted temp.
 	         String convertion = Double.toString(result);
 	         ftemp.setText(convertion);	//conversion
 	         

@@ -58,10 +58,15 @@ public class TempConverter extends JFrame{
 	         {
 	        	 //c to f
 	            result = Double.parseDouble(input) * 9 / 5 + 32;
+	            //don't show button to be clicked
+	            c.setSelected(false);
 	         }
 	         else if (e.getSource() == c)
 	         {
+	        	 //f to c
 	            result = (Double.parseDouble(input) - 32) * 5 / 9;
+	            //don't show button to be clicked
+	            f.setSelected(false);
 	         }
 
 	         // Display the converted distance.
